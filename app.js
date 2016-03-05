@@ -104,6 +104,6 @@ app.delete('/phones/:id', function(req, res) {
 });
 
 
-app.listen(27017, function() {
+app.listen(process.env.PORT, process.env.IP, function() {
  console.log("Server has started..");
 });

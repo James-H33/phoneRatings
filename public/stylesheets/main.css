@@ -11,6 +11,7 @@ h1 {
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 50px;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -39,13 +40,17 @@ i.fa {
 
 .ui.card {
     margin: 2rem auto;
-    width: 80%;
+    width: 90%;
 }
 
 
 .ui.card>.image>img, .ui.cards>.card>.image>img {
   width: 100%;
   height: 240px;
+}
+
+.ui.card:last-child {
+  margin-bottom: 30px;
 }
 
 .buttonContainer {
@@ -55,13 +60,13 @@ i.fa {
 }
 
 .ui.secondary.button {
-  width: 400px;
+  width: 300px;
 }
 
 .button a {
   color: white;
   text-decoration: none;
-  padding: 8px 120px;
+  padding: 8px 100px;
 }
 
 @media (min-width: 769px) {

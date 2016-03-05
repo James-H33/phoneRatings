@@ -6,6 +6,10 @@ body {
   border-radius: 0;
 }
 
+.ui.card:last-child {
+    margin-bottom: 40px;
+}
+
 i.fa {
   padding-right: 5px;
   font-size: 20px;

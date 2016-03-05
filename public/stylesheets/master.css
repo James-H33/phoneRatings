@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+a:hover {
+  color: #000;
+  font-weight: bolder;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.ui.vertical.segment:last-child {
+  background: #fff;
+}
+
+.footer {
+  text-align: center;
+}
+
+.ui.divided.inverted.horizontal.list>.item, .ui.divided.inverted.list>.item, .ui.divided.inverted.list>.list {
+  color: #000;
+}
+
+
+.ui.divided.inverted.horizontal.list>.item:hover {
+  color: #000;
+  font-weight: bolder;
+}
+
+.ui.footer.vertical.segment {
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+}

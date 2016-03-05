@@ -23,15 +23,10 @@
     <i class="comment icon"></i>
     <%= phone.description %>
   </div>
-  <div class="extra content">
-    <div class="ui large transparent left icon input">
-      <i class="heart outline icon"></i>
-      <input type="text" placeholder="Add Comment...">
-    </div>
-  </div>
-</div>
   <form action="/phones/<%= phone._id %>?_method=DELETE" method="POST">
     <button class="ui secondary button"> Remove Post</button>
   </form>
+  </div>
+</div>
 </div>
 <% include partials/footer %>

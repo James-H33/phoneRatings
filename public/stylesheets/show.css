@@ -18,16 +18,40 @@ i.fa {
 
 .contentContainer {
   width: 80%;
-  margin: 0 auto;
+  margin: 50px auto;
+
 }
 
 .ui.card {
-  margin: 0 auto;
-  width: 500px;
-  height: 500px;
+  width: 100%;
+}
+
+.ui.card>.image>img, .ui.cards>.card>.image>img {
+  height: 280px;
+  width: 100%;
 }
 
 form {
   text-align: center;
   margin: 20px;
+}
+
+@media (min-width: 769px) {
+
+  .contentContainer {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .ui.card {
+    margin: 0 auto;
+    width: 60%;
+    max-width: 600px;
+    /*height: 500px;*/
+  }
+
+  .ui.card>.image>img, .ui.cards>.card>.image>img {
+    height: 350px;
+    width: 100%;
+  }
 }

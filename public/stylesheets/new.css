@@ -4,6 +4,7 @@ body  {
 
 ul {
   list-style-type: none;
+  padding: 0 1rem;
 }
 
 input {
@@ -24,12 +25,27 @@ input {
   }
 
   .formContainer {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
+    padding: 0 auto;
   }
 
 .formGroup {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+}
+
+@media (min-width: 769px) {
+
+    .formContainer {
+      width: 70%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+  .formGroup {
+    width: 80%;
+    margin: 0 auto;
+  }
 }

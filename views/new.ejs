@@ -1,0 +1,15 @@
+<% include partials/header %>
+<link rel="stylesheet" href="/stylesheets/new.css" media="screen" title="no title" charset="utf-8">
+
+<div class="formContainer">
+  <h1>New Phone Form</h1>
+  <ul>
+    <form class="formGroup" action="/phones" method="post">
+        <li><input type="text" name="name" placeholder="Phone Name"></li>
+        <li><input type="text" name="image" placeholder="Image URL"></li>
+        <li><input type="text" name="description" placeholder="Device Info"></li>
+        <button class="ui secondary button"> Submit</button>
+    </form>
+  </ul>
+</div>
+<% include partials/footer %>

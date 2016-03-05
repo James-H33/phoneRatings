@@ -1,0 +1,44 @@
+<% include partials/header %>
+<link rel="stylesheet" href="/stylesheets/main.css" media="screen" title="no title" charset="utf-8">
+
+<div class="headerContainer">
+  <div class="headerContent">
+    <h1>Welcome to Rate My Phone</h1>
+    <p>
+      Do you have any of the phones below? If so, feel free to leave a review for your device or devices(What a baller!).
+    </p>
+    <hr>
+    <div class="buttonContainer">
+      <button class="ui secondary button" href="/phones/new"><a href="/phones/new"> Add New</a></button>
+    </div>
+  </div>
+</div>
+
+
+<div class="middleContainer">
+  <% phones.forEach(function(phone) { %>
+<div class="ui card">
+  <div class="image">
+    <img src="<%= phone.image %>">
+  </div>
+  <div class="content">
+    <a class="header" href="/phones/<%= phone._id %>"><%= phone.name %></a>
+    <div class="meta">
+      <span class="date">Made 2016</span>
+    </div>
+    <div class="description">
+      <%= phone.description.substring(0, 35); %>..
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+      <i class="user icon"></i>
+      22 Awards
+    </a>
+  </div>
+</div>
+  <%  }) %>
+</div>
+
+
+<% include partials/footer %>

@@ -1,0 +1,33 @@
+body {
+  background: #f5f5f5;
+}
+
+.ui.inverted.menu {
+  border-radius: 0;
+}
+
+i.fa {
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.header {
+  text-align: center;
+  margin: 20px;
+}
+
+.contentContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ui.card {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+
+form {
+  text-align: center;
+  margin: 20px;
+}
